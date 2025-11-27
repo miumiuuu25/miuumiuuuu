@@ -1,0 +1,84 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Header */
+header {
+    background: #f8bfd8;
+    color: #4a154b;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+/* Profile Section */
+.profile {
+    display: flex;
+    gap: 30px;
+    padding: 50px 10%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profile-img {
+    width: 280px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.profile-info h2 {
+    font-size: 2rem;
+    color: #4a154b;
+}
+
+.profile-info h4 {
+    color: #8b3a8d;
+    margin-bottom: 15px;
+}
+
+.profile-info p {
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #444;
+}
+
+/* Achievements */
+.achievements {
+    background: #ffe6f2;
+    padding: 40px 10%;
+}
+
+.achievements h2 {
+    color: #4a154b;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.achievements ul {
+    padding-left: 20px;
+}
+
+.achievements li {
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 1rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #f8bfd8;
+    padding: 20px;
+    margin-top: 30px;
+    color: #4a154b;
+}
